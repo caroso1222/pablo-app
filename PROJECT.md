@@ -40,8 +40,10 @@ la app no las repite, las clasifica.
   Carlos). La fecha de nacimiento es una constante en `src/baby.ts`.
 - **Idioma:** español latinoamericano, tuteo, sin «vosotros» ni modismos de
   España (se corrigieron «coche» → «carro», «zumo» → «jugo»).
-- **Hosting:** solo local por ahora (`npm run dev`). El build en `dist/` es
-  estático y sirve para Coolify o GitHub Pages sin cambios.
+- **Hosting:** GitHub Pages en <https://caroso1222.github.io/pablo-app/>, repo
+  público `caroso1222/pablo-app`. Pages sirve desde la rama `gh-pages` (solo el
+  build); `npm run deploy` la regenera. El HTML usa `base: "./"`, así que el
+  mismo `dist/` funciona en raíz o en subcarpeta sin tocar nada.
 
 ## Cómo se lee el contenido
 
@@ -81,7 +83,8 @@ Funcional y navegable, con el primer año completo:
    simbólico; el mes 13 arranca con la revisión de los 15 meses como referencia.
 2. Revisión de tono por Carlos y Lina con la app en el móvil.
 3. Evaluar si hace falta una ficha de **mes 0–2** con más detalle semanal.
-4. Decidir hosting (Coolify vs. Pages) cuando el contenido esté completo.
+4. Evaluar si conviene pasar el despliegue a GitHub Actions (requiere
+   `gh auth refresh -s workflow`) en vez de `npm run deploy`.
 
 ## Open Questions / Blockers
 

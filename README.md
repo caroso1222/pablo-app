@@ -23,6 +23,29 @@ WiFi: `http://<IP-de-tu-Mac>:5173`.
 | `npm run preview` | Sirve `dist/` (incluye service worker) |
 | `npm test` | Tests de contenido, edad y navegación |
 | `npm run typecheck` | Solo TypeScript |
+| `npm run deploy` | Compila y publica en GitHub Pages |
+
+## Despliegue
+
+El sitio vive en <https://caroso1222.github.io/pablo-app/> (repositorio público).
+
+GitHub Pages sirve desde la rama `gh-pages`, que solo contiene el build. Para
+publicar cambios:
+
+```bash
+npm run deploy
+```
+
+`scripts/deploy.sh` compila, copia `dist/` a una carpeta temporal, añade
+`.nojekyll` y fuerza el push a `gh-pages`. Tarda ~1 minuto en verse reflejado.
+
+Por qué no hay workflow de Actions: el token de `gh` de esta máquina no tiene el
+scope `workflow`, así que GitHub rechaza subir un `.github/workflows/*.yml`.
+Si algún día se quiere CI en cada push, basta con `gh auth refresh -s workflow`
+y añadir el workflow oficial de Pages (`configure-pages` + `deploy-pages`).
+
+Ojo: el sitio es público aunque el repositorio fuese privado. En Pages la
+visibilidad del repo no protege el contenido.
 
 ## Estructura
 
