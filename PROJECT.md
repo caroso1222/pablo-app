@@ -41,9 +41,10 @@ la app no las repite, las clasifica.
 - **Idioma:** español latinoamericano, tuteo, sin «vosotros» ni modismos de
   España (se corrigieron «coche» → «carro», «zumo» → «jugo»).
 - **Hosting:** GitHub Pages en <https://caroso1222.github.io/pablo-app/>, repo
-  público `caroso1222/pablo-app`. Pages sirve desde la rama `gh-pages` (solo el
-  build); `npm run deploy` la regenera. El HTML usa `base: "./"`, así que el
-  mismo `dist/` funciona en raíz o en subcarpeta sin tocar nada.
+  público `caroso1222/pablo-app`. Publica el workflow
+  `.github/workflows/deploy.yml` en cada push a `main` (origen «GitHub Actions»,
+  sin rama `gh-pages`). El HTML usa `base: "./"`, así que el mismo `dist/`
+  funciona en raíz o en subcarpeta sin tocar nada.
 
 ## Cómo se lee el contenido
 
@@ -83,8 +84,6 @@ Funcional y navegable, con el primer año completo:
    simbólico; el mes 13 arranca con la revisión de los 15 meses como referencia.
 2. Revisión de tono por Carlos y Lina con la app en el móvil.
 3. Evaluar si hace falta una ficha de **mes 0–2** con más detalle semanal.
-4. Evaluar si conviene pasar el despliegue a GitHub Actions (requiere
-   `gh auth refresh -s workflow`) en vez de `npm run deploy`.
 
 ## Open Questions / Blockers
 
