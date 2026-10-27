@@ -1,0 +1,6 @@
+node_modules
+dist
+.screens
+.DS_Store
+*.local
+*.tsbuildinfo
