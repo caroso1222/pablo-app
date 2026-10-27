@@ -34,6 +34,11 @@ la app no las repite, las clasifica.
   servidor sin rewrites.
 - **PWA** con `vite-plugin-pwa`: instalable, service worker con precache del
   app shell y del contenido. Iconos generados localmente (PNG + SVG).
+- **Fotos de juguetes locales, no hotlinks:** las imágenes viven en
+  `public/toys/` (recortadas a 480×360 sobre blanco), así funcionan sin conexión
+  y no dependen de que un retailer cambie la URL. Se cargan con
+  `loading="lazy"` + `decoding="async"` y el service worker las cachea solo
+  cuando el navegador las pide de verdad (nunca entran al precache).
 - **Navegación inferior fija** de 4 pestañas; todo pensado para el pulgar, no
   para un desktop encogido.
 - **Sin estado persistente**: no hay checklist ni perfil de bebé (decisión de
@@ -75,7 +80,9 @@ Funcional y navegable, con el primer año completo:
 - **Enfoques**: serve and return, Montessori, RIE, movimiento libre (Pikler),
   juego libre vs. guiado, lectura en voz alta, pantallas.
 - **PWA** verificada: service worker activo y controlando la página.
-- **115 tests** (contenido + edad) y `tsc -b` limpio.
+- **Fotos de juguetes**: los 7 del mes 4, como prueba visual. El resto de meses
+  sigue sin foto (decisión pendiente de Carlos después de verla en el móvil).
+- **118 tests** (contenido + edad) y `tsc -b` limpio.
 - Sin errores de consola en las 13 rutas.
 
 ## Next Steps
@@ -130,6 +137,15 @@ Funcional y navegable, con el primer año completo:
   `apple-touch-icon.png`.
 - **`base: "./"`** en Vite: imprescindible para que el build funcione en
   subcarpetas de Pages o detrás de un proxy sin tocar rutas.
+- **Fotos de juguetes**: son fotos de fabricante encontradas en Amazon, usadas
+  como referencia visual de la *categoría* (la app vende categorías, no marcas)
+  y por eso la sección avisa que no es una recomendación de esa marca. El pie de
+  cada foto se recortó a mano (`KEEP` por imagen) para quitar los collages de
+  variantes, se recortó el blanco sobrante y se normalizó a un lienzo 4:3 de
+  480×360 con Pillow, para que las 71 tarjetas se vean parejas. Cada `ToyPick`
+  declara `image` (ruta relativa a `public/`) y `imageAlt` (describe la
+  categoría, nunca la marca); un test falla si la ruta no apunta a un archivo
+  existente o si falta el alt.
 - **Ritmo vertical centralizado:** cada página usa `space-y-3.5` (14 px) en su
   contenedor. Los márgenes entre hermanos colapsan, así que no hay que añadir
   `gap` a cada sección ni preocuparse por duplicar espacio. Si un bloque

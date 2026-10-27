@@ -477,6 +477,9 @@ export const month04: MonthContent = {
       months: [0, 7],
       price: "€€",
       safety: "Retíralo cuando intente incorporarse o sentarse.",
+      image: "toys/t4-gimnasio.jpg",
+      imageAlt:
+        "Gimnasio de suelo con dos arcos, sonajeros colgando y una alfombra ilustrada.",
     },
     {
       id: "t4-aro",
@@ -486,6 +489,9 @@ export const month04: MonthContent = {
       months: [3, 9],
       price: "€",
       safety: "Sin piezas que se desmonten ni bordes afilados.",
+      image: "toys/t4-aro.jpg",
+      imageAlt:
+        "Cadena de aros de colores con texturas, del tamaño de una mano.",
     },
     {
       id: "t4-obal",
@@ -495,6 +501,9 @@ export const month04: MonthContent = {
       months: [3, 12],
       price: "€",
       safety: "Comprueba que la rejilla no se deforme ni se separe.",
+      image: "toys/t4-obal.jpg",
+      imageAlt:
+        "Pelota de rejilla flexible con huecos grandes para meter los dedos.",
     },
     {
       id: "t4-mordedor",
@@ -504,6 +513,9 @@ export const month04: MonthContent = {
       months: [3, 18],
       price: "€",
       safety: "Nunca lo dejes con un collar de dentición ni con un mordedor con líquido dentro.",
+      image: "toys/t4-mordedor.jpg",
+      imageAlt:
+        "Mordedor de silicona de una sola pieza, con texturas y un aro para agarrar.",
     },
     {
       id: "t4-libro",
@@ -513,6 +525,9 @@ export const month04: MonthContent = {
       months: [3, 15],
       price: "€",
       safety: "Tela lavable, sin anillas metálicas ni piezas que se despeguen.",
+      image: "toys/t4-libro.jpg",
+      imageAlt:
+        "Libro de tela blando con una cara de oso bordada y un aro de agarre.",
     },
     {
       id: "t4-espejo",
@@ -522,6 +537,9 @@ export const month04: MonthContent = {
       months: [0, 18],
       price: "€",
       safety: "Fijado o con marco blando; nunca de vidrio.",
+      image: "toys/t4-espejo.jpg",
+      imageAlt:
+        "Espejo blando de suelo, de pie y con solapas de alto contraste.",
     },
     {
       id: "t4-manta",
@@ -531,6 +549,9 @@ export const month04: MonthContent = {
       months: [0, 9],
       price: "€€",
       safety: "Sin piezas pequeñas ni espejos de plástico rígido que se puedan soltar.",
+      image: "toys/t4-manta.jpg",
+      imageAlt:
+        "Manta de actividades con arcos, animales colgando y texturas para tocar.",
     },
   ],
   sources: [

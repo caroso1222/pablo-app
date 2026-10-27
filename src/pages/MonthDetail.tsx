@@ -304,6 +304,12 @@ export function MonthDetailPage({
             Menos es más. Estas son categorías, no marcas: lo importante es el
             tamaño, la limpieza y que sea una sola pieza.
           </p>
+          {content.toys.some((toy) => toy.image) ? (
+            <p className="mb-3 max-w-[62ch] text-[0.8rem] text-muted">
+              Las fotos son solo una referencia visual de la categoría, no una
+              recomendación de esa marca en concreto.
+            </p>
+          ) : null}
           <div className="flex flex-col gap-3">
             {content.toys.map((toy) => (
               <ToyCard key={toy.id} toy={toy} />

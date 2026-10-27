@@ -1,9 +1,32 @@
+import { useState } from "react";
 import type { ToyPick } from "../content/types";
 import { cardTight } from "../ui";
 
+/** Respeta el `base` relativo de Vite (`./`), así sirve en raíz y en subcarpeta. */
+function imageSrc(path: string): string {
+  return `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+}
+
 export function ToyCard({ toy }: { toy: ToyPick }) {
+  const [imageFailed, setImageFailed] = useState(false);
+  const showImage = Boolean(toy.image) && !imageFailed;
+
   return (
     <article className={cardTight}>
+      {showImage ? (
+        <div className="mb-3 aspect-[4/3] overflow-hidden rounded-tile border border-line bg-surface md:mx-auto md:max-w-[380px]">
+          <img
+            src={imageSrc(toy.image as string)}
+            alt={toy.imageAlt ?? ""}
+            loading="lazy"
+            decoding="async"
+            width={480}
+            height={360}
+            onError={() => setImageFailed(true)}
+            className="size-full object-contain"
+          />
+        </div>
+      ) : null}
       <div className="flex items-center justify-between gap-2.5">
         <span className="text-[0.66rem] font-bold uppercase tracking-[0.1em] text-muted">
           {toy.category}

@@ -67,6 +67,8 @@ src/
     approaches.ts      metodologías de desarrollo temprano
     index.ts           registro de meses + índices de actividades/juguetes
     content.test.ts    guardas de integridad del contenido
+public/
+  toys/                fotos de referencia de los juguetes (480×360)
 ```
 
 ## Estilo (Tailwind v4)
@@ -99,6 +101,30 @@ Reglas de contenido que no están en los tests pero sí en el listón:
   tema vuelve, el ángulo tiene que ser distinto.
 - Español latinoamericano con tuteo; nada de «vosotros», «coger», «zumo»,
   «coche» ni «móvil».
+
+## Añadir una foto a un juguete
+
+Las fotos son de fabricante, usadas como referencia visual de la categoría (la
+app habla de categorías, no de marcas), y viven en `public/toys/` para que
+funcionen sin conexión.
+
+1. Guarda la foto en `public/toys/<id-del-juguete>.jpg`.
+2. Normalízala siempre al mismo lienzo: 480×360 (4:3), fondo blanco, producto
+   centrado con ~14 px de margen. Si la foto original trae un collage de
+   variantes al pie, recórtalo antes.
+3. En `src/content/month-NN.ts` añade al juguete:
+
+   ```ts
+   image: "toys/t4-obal.jpg",
+   imageAlt: "Pelota de rejilla flexible con huecos grandes para meter los dedos.",
+   ```
+
+4. `npm test`: falla si la ruta no existe en `public/` o si el alt es muy corto.
+5. La tarjeta se encarga del resto: `loading="lazy"`, `decoding="async"`, caja
+   4:3 y, si la foto falla, la esconde sin dejar hueco.
+
+> El `imageAlt` describe la categoría, nunca la marca: la recomendación de la
+> app es el tipo de objeto, no el producto de la foto.
 
 ## Criterios
 

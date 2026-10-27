@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { sources } from "../content/sources";
 import { months } from "../content";
@@ -187,6 +189,37 @@ describe("catálogo global", () => {
       for (const id of approach.sources) {
         expect(sourceIds.has(id), `${approach.id}: ${id}`).toBe(true);
       }
+    }
+  });
+});
+
+describe("fotos de juguetes", () => {
+  const withImage = months.flatMap((month) =>
+    month.toys
+      .filter((toy) => toy.image)
+      .map((toy) => ({ month: month.label, toy })),
+  );
+
+  it("las fotos declaradas existen en public/", () => {
+    for (const { month, toy } of withImage) {
+      const relative = toy.image!.replace(/^\/+/, "");
+      const file = resolve(process.cwd(), "public", relative);
+      expect(existsSync(file), `${month} · ${toy.id}: falta ${relative}`).toBe(
+        true,
+      );
+    }
+  });
+
+  it("cada foto trae texto alternativo descriptivo", () => {
+    for (const { month, toy } of withImage) {
+      expect(toy.imageAlt?.trim().length ?? 0, `${month} · ${toy.id}`)
+        .toBeGreaterThan(15);
+    }
+  });
+
+  it("las rutas son relativas, sin barra inicial", () => {
+    for (const { month, toy } of withImage) {
+      expect(toy.image!.startsWith("/"), `${month} · ${toy.id}`).toBe(false);
     }
   });
 });

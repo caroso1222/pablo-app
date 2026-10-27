@@ -36,6 +36,18 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,svg,png,woff2}"],
+        // Las fotos de juguetes no se precargan (rompería el lazy loading):
+        // se guardan solo cuando el navegador las pide de verdad.
+        runtimeCaching: [
+          {
+            urlPattern: /\/toys\/[^/]+\.(?:jpg|jpeg|png|webp)$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "fotos-juguetes",
+              expiration: { maxEntries: 120, maxAgeSeconds: 60 * 60 * 24 * 180 },
+            },
+          },
+        ],
         navigateFallback: "index.html",
         clientsClaim: true,
         skipWaiting: true,

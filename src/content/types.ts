@@ -70,6 +70,10 @@ export interface ToyPick {
   months: [number, number];
   price: "€" | "€€" | "€€€";
   safety?: string;
+  /** Foto de referencia, relativa a `public/`. Opcional. */
+  image?: string;
+  /** Texto alternativo. Describe la categoría, nunca la marca. */
+  imageAlt?: string;
 }
 
 export interface Approach {
