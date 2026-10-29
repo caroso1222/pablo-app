@@ -451,6 +451,9 @@ export const month10: MonthContent = {
       price: "€€",
       safety:
         "Pesado en la base para que no vuelque, sin ruedas locas ni bisagras que se plieguen; nada de andadores con ruedas.",
+      image: "toys/t10-empuje.jpg",
+      imageAlt:
+        "Juguete de empuje de madera con un pájaro que aletea al avanzar.",
     },
     {
       id: "t10-cubos",
@@ -460,6 +463,9 @@ export const month10: MonthContent = {
       months: [6, 24],
       price: "€",
       safety: "Plástico sin BPA, sin bordes cortantes; revisa que no se agrieten.",
+      image: "toys/t10-cubos.jpg",
+      imageAlt:
+        "Vasos apilables de colores que se encajan y se tapan.",
     },
     {
       id: "t10-cubo",
@@ -470,6 +476,9 @@ export const month10: MonthContent = {
       price: "€",
       safety:
         "Si es un cubo grande, que tenga agujeros de ventilación y supervisión: nunca la cabeza dentro.",
+      image: "toys/t10-cubo.jpg",
+      imageAlt:
+        "Cubo de madera con formas geométricas para encajar por sus lados.",
     },
     {
       id: "t10-libro",
@@ -479,6 +488,9 @@ export const month10: MonthContent = {
       months: [8, 30],
       price: "€",
       safety: "Cartoné grueso y esquinas redondeadas; sin solapas que se arranquen.",
+      image: "toys/t10-libro.jpg",
+      imageAlt:
+        "Estuche con seis libros de cartón de primeras palabras.",
     },
     {
       id: "t10-cuchara",
@@ -488,6 +500,9 @@ export const month10: MonthContent = {
       months: [6, 30],
       price: "€",
       safety: "Silicona apta para alimentos, de una sola pieza y sin bordes duros.",
+      image: "toys/t10-cuchara.jpg",
+      imageAlt:
+        "Set de silicona con cuenco de ventosa, cuchara y babero.",
     },
     {
       id: "t10-pelota",
@@ -497,6 +512,9 @@ export const month10: MonthContent = {
       months: [7, 18],
       price: "€",
       safety: "Sin cascabel dentro ni costuras abiertas por donde salga relleno.",
+      image: "toys/t10-pelota.jpg",
+      imageAlt:
+        "Pelota de tela con asas y texturas para agarrar con las dos manos.",
     },
     {
       id: "t10-formas",
@@ -506,6 +524,9 @@ export const month10: MonthContent = {
       months: [10, 24],
       price: "€€",
       safety: "Piezas grandes, sin clavijas pequeñas; revisa que los pomos estén bien fijados.",
+      image: "toys/t10-formas.jpg",
+      imageAlt:
+        "Encajable de madera con formas geométricas y piezas grandes.",
     },
   ],
   sources: [

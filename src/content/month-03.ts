@@ -434,6 +434,9 @@ export const month03: MonthContent = {
       months: [0, 6],
       price: "€€",
       safety: "Retíralo cuando empiece a sentarse o a intentar incorporarse.",
+      image: "toys/t3-gimnasio.jpg",
+      imageAlt:
+        "Gimnasio de madera con arco, sonajeros colgando y una manta estampada debajo.",
     },
     {
       id: "t3-sonajero",
@@ -443,6 +446,9 @@ export const month03: MonthContent = {
       months: [2, 7],
       price: "€",
       safety: "Una sola pieza, sin cascabeles sueltos ni huecos donde entre un dedo.",
+      image: "toys/t3-sonajero.jpg",
+      imageAlt:
+        "Sonajero de ganchillo con cabeza de león y aro de madera para agarrar.",
     },
     {
       id: "t3-libro",
@@ -452,6 +458,9 @@ export const month03: MonthContent = {
       months: [0, 9],
       price: "€",
       safety: "Sin anillas metálicas ni espejos que se despeguen.",
+      image: "toys/t3-libro.jpg",
+      imageAlt:
+        "Libros y tarjetas de tela en blanco y negro, de alto contraste.",
     },
     {
       id: "t3-espejo",
@@ -461,6 +470,9 @@ export const month03: MonthContent = {
       months: [0, 12],
       price: "€",
       safety: "Fijado o con marco blando; nunca de vidrio.",
+      image: "toys/t3-espejo.jpg",
+      imageAlt:
+        "Espejo de suelo con marco de madera y tarjetas de contraste al lado.",
     },
     {
       id: "t3-pelota",
@@ -470,6 +482,9 @@ export const month03: MonthContent = {
       months: [2, 12],
       price: "€",
       safety: "Que no quepa entera en la boca y no tenga tapón.",
+      image: "toys/t3-pelota.jpg",
+      imageAlt:
+        "Set de pelotas sensoriales de goma con texturas y relieves distintos.",
     },
     {
       id: "t3-manta",
@@ -479,6 +494,9 @@ export const month03: MonthContent = {
       months: [0, 8],
       price: "€€",
       safety: "Sin piezas desmontables pequeñas ni espejos de plástico duro.",
+      image: "toys/t3-manta.jpg",
+      imageAlt:
+        "Manta de juego acolchada y plegable, con costuras cuadradas.",
     },
     {
       id: "t3-mordedor",
@@ -488,6 +506,9 @@ export const month03: MonthContent = {
       months: [3, 18],
       price: "€",
       safety: "Silicona alimentaria, sin líquido dentro, sin cordón. No usar collares de dentición.",
+      image: "toys/t3-mordedor.jpg",
+      imageAlt:
+        "Mordedor de silicona con forma redondeada y relieves para las encías.",
     },
   ],
   sources: [

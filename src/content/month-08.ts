@@ -488,6 +488,9 @@ export const month08: MonthContent = {
       price: "€€",
       safety:
         "Base antideslizante y sin bordes duros; retírala si la funda se despega o si se moja.",
+      image: "toys/t8-rampa.jpg",
+      imageAlt:
+        "Cuña de espuma blanda con escalón para gatear y trepar.",
     },
     {
       id: "t8-caja",
@@ -497,6 +500,9 @@ export const month08: MonthContent = {
       months: [7, 18],
       price: "€",
       safety: "Sin grapas ni cinta suelta; retírala si se rompe o se moja.",
+      image: "toys/t8-caja.jpg",
+      imageAlt:
+        "Caja de cartón grande y resistente, con asas.",
     },
     {
       id: "t8-arrastre",
@@ -507,6 +513,9 @@ export const month08: MonthContent = {
       price: "€",
       safety:
         "Sin cordón largo ni lazo: nada que pueda rodear el cuello. Revisa que las ruedas no se suelten.",
+      image: "toys/t8-arrastre.jpg",
+      imageAlt:
+        "Juguete de arrastre de madera con forma de cocodrilo y cuerda.",
     },
     {
       id: "t8-xilofono",
@@ -516,6 +525,9 @@ export const month08: MonthContent = {
       months: [8, 24],
       price: "€",
       safety: "Baquetas de una pieza, sin bolas en la punta que se puedan desprender.",
+      image: "toys/t8-xilofono.jpg",
+      imageAlt:
+        "Xilófono de madera con cinco teclas de colores y baquetas.",
     },
     {
       id: "t8-album",
@@ -526,6 +538,9 @@ export const month08: MonthContent = {
       price: "€€",
       safety:
         "Páginas gruesas y anillas interiores; retíralo si alguna foto o esquina se despega.",
+      image: "toys/t8-album.jpg",
+      imageAlt:
+        "Álbum de fotos de tela con funda y páginas para fotos.",
     },
     {
       id: "t8-alfombra",
@@ -535,6 +550,9 @@ export const month08: MonthContent = {
       months: [7, 24],
       price: "€€",
       safety: "Con base antideslizante y sin flecos largos; nada de mantas sueltas sobre piso liso.",
+      image: "toys/t8-alfombra.jpg",
+      imageAlt:
+        "Alfombra de puzzle de espuma con piezas encajables de colores.",
     },
     {
       id: "t8-anclajes",
@@ -545,6 +563,9 @@ export const month08: MonthContent = {
       price: "€",
       safety:
         "Los anclajes van a la pared con taco si hace falta; revísalos cada pocos meses y después de cada mudanza.",
+      image: "toys/t8-anclajes.jpg",
+      imageAlt:
+        "Correa de anclaje antivuelco atornillada a un mueble de madera.",
     },
   ],
   sources: [

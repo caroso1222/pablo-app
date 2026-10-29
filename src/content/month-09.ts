@@ -522,6 +522,9 @@ export const month09: MonthContent = {
       months: [6, 18],
       price: "€",
       safety: "Sin bordes cortantes; si son de tela, revisa las costuras antes de cada uso.",
+      image: "toys/t9-cubos.jpg",
+      imageAlt:
+        "Cubos y vasos apilables de colores, con anillas para encajar.",
     },
     {
       id: "t9-cuenco",
@@ -531,6 +534,9 @@ export const month09: MonthContent = {
       months: [8, 24],
       price: "€",
       safety: "Silicona apta para alimentos, sin BPA, y sin piezas que se desprendan.",
+      image: "toys/t9-cuenco.jpg",
+      imageAlt:
+        "Cuenco de silicona con tapa y dos cucharas del mismo material.",
     },
     {
       id: "t9-cubo-actividades",
@@ -540,6 +546,9 @@ export const month09: MonthContent = {
       months: [8, 18],
       price: "€€",
       safety: "Sin pilas de botón accesibles y sin piezas que quepan en un rollo de papel.",
+      image: "toys/t9-cubo-actividades.jpg",
+      imageAlt:
+        "Cubo de actividades de madera con laberinto y piezas para encajar.",
     },
     {
       id: "t9-pelota",
@@ -549,6 +558,9 @@ export const month09: MonthContent = {
       months: [7, 24],
       price: "€",
       safety: "Que no quepa entera en la boca y que no tenga tapón ni válvula desmontable.",
+      image: "toys/t9-pelota.jpg",
+      imageAlt:
+        "Pelota de tela con gajos de colores y sonido al rodar.",
     },
     {
       id: "t9-libro-carton",
@@ -558,6 +570,9 @@ export const month09: MonthContent = {
       months: [6, 24],
       price: "€",
       safety: "Cartón grueso con esquinas redondeadas, y solapas que no se despeguen.",
+      image: "toys/t9-libro-carton.jpg",
+      imageAlt:
+        "Libro de cartón con solapas y fotos de objetos cotidianos.",
     },
     {
       id: "t9-recipiente",
@@ -567,6 +582,9 @@ export const month09: MonthContent = {
       months: [7, 20],
       price: "€",
       safety: "Sin tapas, sin asas que atrapen dedos y sin objetos pequeños dentro.",
+      image: "toys/t9-recipiente.jpg",
+      imageAlt:
+        "Cuenco hondo y cuchara de madera para trasvasar.",
     },
     {
       id: "t9-tunel",
@@ -576,6 +594,9 @@ export const month09: MonthContent = {
       months: [8, 24],
       price: "€€",
       safety: "Sin alambre roto ni bordes duros; retíralo si se dobla solo.",
+      image: "toys/t9-tunel.jpg",
+      imageAlt:
+        "Túnel de tela plegable con aros rígidos y estampado de juguetes.",
     },
     {
       id: "t9-empujador",
@@ -585,6 +606,9 @@ export const month09: MonthContent = {
       months: [11, 24],
       price: "€€",
       safety: "Con lastre o freno ajustable. Nunca un andador con asiento y ruedas.",
+      image: "toys/t9-empujador.jpg",
+      imageAlt:
+        "Carrito de madera con mango para empujar y ruedas grandes.",
     },
   ],
   sources: [

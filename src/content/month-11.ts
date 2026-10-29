@@ -494,6 +494,9 @@ export const month11: MonthContent = {
       price: "€€",
       safety:
         "Sin asiento ni ruedas locas; úsalo en suelo llano y lejos de escaleras.",
+      image: "toys/t11-empujar.jpg",
+      imageAlt:
+        "Carrito de madera con forma de gato y mango alto para empujar.",
     },
     {
       id: "t11-cubos",
@@ -503,6 +506,9 @@ export const month11: MonthContent = {
       months: [9, 24],
       price: "€",
       safety: "Bordes romos, tamaño grande y sin pintura desconchada.",
+      image: "toys/t11-cubos.jpg",
+      imageAlt:
+        "Vasos y cubos apilables de colores pastel.",
     },
     {
       id: "t11-pelota",
@@ -512,6 +518,9 @@ export const month11: MonthContent = {
       months: [8, 24],
       price: "€",
       safety: "Que no quepa entera en la boca y que la válvula no se pueda sacar.",
+      image: "toys/t11-pelota.jpg",
+      imageAlt:
+        "Pelotas sensoriales de goma con relieves y texturas.",
     },
     {
       id: "t11-libro",
@@ -521,6 +530,9 @@ export const month11: MonthContent = {
       months: [9, 24],
       price: "€",
       safety: "Cartoné grueso, solapas firmes y sin anillas metálicas.",
+      image: "toys/t11-libro.jpg",
+      imageAlt:
+        "Libro de cartón con lengüetas y solapas para tirar de ellas.",
     },
     {
       id: "t11-vaso",
@@ -530,6 +542,9 @@ export const month11: MonthContent = {
       months: [9, 24],
       price: "€",
       safety: "Plástico libre de BPA o acero inoxidable; evita los vasos con válvula.",
+      image: "toys/t11-vaso.jpg",
+      imageAlt:
+        "Dos vasos abiertos de silicona pequeños, sin asas.",
     },
     {
       id: "t11-cesto",
@@ -540,6 +555,9 @@ export const month11: MonthContent = {
       price: "€",
       safety:
         "Revisa cada objeto: sin pilas, imanes, cristal ni piezas menores que un rollo de papel.",
+      image: "toys/t11-cesto.jpg",
+      imageAlt:
+        "Dos capazos de palma con asa para llenar y transportar.",
     },
     {
       id: "t11-encajable",
@@ -549,6 +567,9 @@ export const month11: MonthContent = {
       months: [12, 24],
       price: "€€",
       safety: "Piezas grandes, sin bordes cortantes ni clavijas finas.",
+      image: "toys/t11-encajable.jpg",
+      imageAlt:
+        "Encajable de madera con piezas de agarre para meter en su hueco.",
     },
   ],
   sources: [

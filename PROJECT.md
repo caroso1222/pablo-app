@@ -80,8 +80,9 @@ Funcional y navegable, con el primer año completo:
 - **Enfoques**: serve and return, Montessori, RIE, movimiento libre (Pikler),
   juego libre vs. guiado, lectura en voz alta, pantallas.
 - **PWA** verificada: service worker activo y controlando la página.
-- **Fotos de juguetes**: los 7 del mes 4, como prueba visual. El resto de meses
-  sigue sin foto (decisión pendiente de Carlos después de verla en el móvil).
+- **Fotos de juguetes**: los 71 picks tienen foto (1,4 MB en total, ~20 KB
+  cada una), todas recortadas al mismo lienzo 4:3 para que la lista se vea
+  pareja. Los `imageAlt` describen la categoría, nunca la marca.
 - **118 tests** (contenido + edad) y `tsc -b` limpio.
 - Sin errores de consola en las 13 rutas.
 

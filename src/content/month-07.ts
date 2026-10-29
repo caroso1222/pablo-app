@@ -514,6 +514,9 @@ export const month07: MonthContent = {
       price: "€",
       safety:
         "Objetos grandes, sin pilas, imanes ni piezas que se suelten; revisa la cesta cada semana.",
+      image: "toys/t7-cesta.jpg",
+      imageAlt:
+        "Cuenco de madera bajo y ancho, para llenar y vaciar.",
     },
     {
       id: "t7-pelota",
@@ -523,6 +526,9 @@ export const month07: MonthContent = {
       months: [6, 18],
       price: "€",
       safety: "Que no quepa entera en la boca y no tenga tapón ni válvula desmontable.",
+      image: "toys/t7-pelota.jpg",
+      imageAlt:
+        "Pelota blanda de tela con caras de colores dibujadas.",
     },
     {
       id: "t7-cubos",
@@ -532,6 +538,9 @@ export const month07: MonthContent = {
       months: [6, 24],
       price: "€",
       safety: "Sin piezas pequeñas ni módulos electrónicos que se abran.",
+      image: "toys/t7-cubos.jpg",
+      imageAlt:
+        "Doce bloques blandos de colores con dibujos en cada cara.",
     },
     {
       id: "t7-libro",
@@ -541,6 +550,9 @@ export const month07: MonthContent = {
       months: [6, 24],
       price: "€",
       safety: "Solapas gruesas; retíralo si alguna se despega.",
+      image: "toys/t7-libro.jpg",
+      imageAlt:
+        "Libro de cartón con solapas grandes e ilustraciones de animales.",
     },
     {
       id: "t7-cuchara",
@@ -550,6 +562,9 @@ export const month07: MonthContent = {
       months: [6, 18],
       price: "€",
       safety: "Silicona alimentaria, de una pieza, sin anillas ni cordones.",
+      image: "toys/t7-cuchara.jpg",
+      imageAlt:
+        "Cuchara de silicona de mango corto y punta blanda.",
     },
     {
       id: "t7-mordedor",
@@ -559,6 +574,9 @@ export const month07: MonthContent = {
       months: [5, 18],
       price: "€",
       safety: "Nunca con líquido dentro ni atado al cuello.",
+      image: "toys/t7-mordedor.jpg",
+      imageAlt:
+        "Mordedor de silicona con aro de agarre y texturas en el borde.",
     },
     {
       id: "t7-silla",
@@ -569,6 +587,9 @@ export const month07: MonthContent = {
       price: "€€",
       safety:
         "Arnés de cinco puntos y correa entre las piernas; nunca lo dejes solo ni muevas la silla con él dentro.",
+      image: "toys/t7-silla.jpg",
+      imageAlt:
+        "Silla de comer alta con bandeja y arnés de cinco puntos.",
     },
   ],
   sources: [

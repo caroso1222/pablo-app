@@ -529,6 +529,9 @@ export const month05: MonthContent = {
       months: [4, 12],
       price: "€",
       safety: "Comprueba las uniones: nada que se abra en piezas pequeñas.",
+      image: "toys/t5-eslabones.jpg",
+      imageAlt:
+        "Cadena de eslabones de plástico de colores que se abren y se cierran.",
     },
     {
       id: "t5-cubo",
@@ -538,6 +541,9 @@ export const month05: MonthContent = {
       months: [4, 14],
       price: "€€",
       safety: "Sin espejos que se despeguen ni piezas que quepan en un rollo de papel.",
+      image: "toys/t5-cubo.jpg",
+      imageAlt:
+        "Cubo de tela con una cara distinta en cada lado, texturas y anilla.",
     },
     {
       id: "t5-libro-caras",
@@ -547,6 +553,9 @@ export const month05: MonthContent = {
       months: [4, 18],
       price: "€",
       safety: "Cartoné grueso, sin anillas metálicas ni esquinas afiladas.",
+      image: "toys/t5-libro-caras.jpg",
+      imageAlt:
+        "Libro de cartón con ilustraciones de caras y solapas grandes.",
     },
     {
       id: "t5-cuchara",
@@ -556,6 +565,9 @@ export const month05: MonthContent = {
       months: [4, 18],
       price: "€",
       safety: "Madera lijada, sin astillas ni barniz desconchado; siempre supervisado.",
+      image: "toys/t5-cuchara.jpg",
+      imageAlt:
+        "Cinco cucharas de madera con mango largo y cuchara de colores.",
     },
     {
       id: "t5-pulsera",
@@ -565,6 +577,9 @@ export const month05: MonthContent = {
       months: [4, 9],
       price: "€",
       safety: "Cierre firme y solo para ratos despierto; nunca para dormir.",
+      image: "toys/t5-pulsera.jpg",
+      imageAlt:
+        "Pulsera sonajero de tela con forma de animal y cascabel.",
     },
     {
       id: "t5-cesta",
@@ -574,6 +589,9 @@ export const month05: MonthContent = {
       months: [5, 15],
       price: "€",
       safety: "Revisa pieza por pieza: nada que quepa entero en la boca, nada de pilas, imanes ni cordones.",
+      image: "toys/t5-cesta.jpg",
+      imageAlt:
+        "Cesta de mimbre con asa para llenar de objetos de casa.",
     },
     {
       id: "t5-pelota-tela",
@@ -583,6 +601,9 @@ export const month05: MonthContent = {
       months: [4, 15],
       price: "€",
       safety: "Costuras cerradas y relleno que no se salga.",
+      image: "toys/t5-pelota-tela.jpg",
+      imageAlt:
+        "Pelota de tela con distintos tejidos y etiquetas para agarrar.",
     },
   ],
   sources: [

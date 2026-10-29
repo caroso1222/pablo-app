@@ -493,6 +493,9 @@ export const month12: MonthContent = {
       months: [11, 24],
       price: "€",
       safety: "Grande, sin válvula desmontable y sin peso: no debe caber en la boca.",
+      image: "toys/t12-pelota.jpg",
+      imageAlt:
+        "Pelota de tela con animales bordados y gajos de colores.",
     },
     {
       id: "t12-cubos",
@@ -502,6 +505,9 @@ export const month12: MonthContent = {
       months: [9, 24],
       price: "€",
       safety: "Más de 4 cm por lado, sin pintura que se desconche ni bordes astillados.",
+      image: "toys/t12-cubos.jpg",
+      imageAlt:
+        "Cubos apilables grandes de cartón con números y dibujos.",
     },
     {
       id: "t12-encajable",
@@ -511,6 +517,9 @@ export const month12: MonthContent = {
       months: [10, 24],
       price: "€",
       safety: "Sin tapa a presión ni piezas que quepan enteras en la boca.",
+      image: "toys/t12-encajable.jpg",
+      imageAlt:
+        "Tarros de plástico transparente de boca ancha con tapa.",
     },
     {
       id: "t12-libro",
@@ -520,6 +529,9 @@ export const month12: MonthContent = {
       months: [9, 24],
       price: "€",
       safety: "Cartón grueso, esquinas redondeadas y sin anillas metálicas.",
+      image: "toys/t12-libro.jpg",
+      imageAlt:
+        "Libro de cartón con solapas y una historia corta.",
     },
     {
       id: "t12-empuje",
@@ -530,6 +542,9 @@ export const month12: MonthContent = {
       price: "€€",
       safety:
         "Base ancha, peso en la parte de abajo y freno o resistencia en las ruedas. Nunca un andador con ruedas.",
+      image: "toys/t12-empuje.jpg",
+      imageAlt:
+        "Andador de madera con ruedas y bloques dentro.",
     },
     {
       id: "t12-cuchara",
@@ -539,6 +554,9 @@ export const month12: MonthContent = {
       months: [9, 24],
       price: "€",
       safety: "Silicona o plástico blando, sin bordes cortantes y sin piezas que se separen.",
+      image: "toys/t12-cuchara.jpg",
+      imageAlt:
+        "Cuenco con ventosa y cuchara corta de madera.",
     },
     {
       id: "t12-crayones",
@@ -548,6 +566,9 @@ export const month12: MonthContent = {
       months: [12, 24],
       price: "€",
       safety: "No tóxicos, punta roma y siempre supervisado; el papel, mejor que la pared.",
+      image: "toys/t12-crayones.jpg",
+      imageAlt:
+        "Caja de crayones gruesos de cera de colores.",
     },
   ],
   sources: [

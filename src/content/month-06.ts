@@ -515,6 +515,9 @@ export const month06: MonthContent = {
       months: [5, 18],
       price: "€",
       safety: "Silicona alimentaria de una pieza, sin bordes duros ni piezas que se desprendan.",
+      image: "toys/t6-cucharas.jpg",
+      imageAlt:
+        "Dos cucharas de silicona de mango corto y punta blanda.",
     },
     {
       id: "t6-vaso",
@@ -524,6 +527,9 @@ export const month06: MonthContent = {
       months: [6, 24],
       price: "€",
       safety: "Sin asas rígidas que puedan golpear la cara; comprueba que el borde no esté astillado.",
+      image: "toys/t6-vaso.jpg",
+      imageAlt:
+        "Cuatro vasos de acero inoxidable pequeños y sin asas.",
     },
     {
       id: "t6-babero",
@@ -533,6 +539,9 @@ export const month06: MonthContent = {
       months: [5, 24],
       price: "€",
       safety: "Cierre ajustable que no apriete el cuello; retíralo en cuanto termine de comer.",
+      image: "toys/t6-babero.jpg",
+      imageAlt:
+        "Babero de silicona con bolsillo recogedor en la parte de abajo.",
     },
     {
       id: "t6-bol-ventosa",
@@ -542,6 +551,9 @@ export const month06: MonthContent = {
       months: [6, 24],
       price: "€€",
       safety: "Ventosa firme y material libre de BPA; revisa que no se despegue con fuerza.",
+      image: "toys/t6-bol-ventosa.jpg",
+      imageAlt:
+        "Bol de silicona con base de ventosa y tapa transparente.",
     },
     {
       id: "t6-cubos",
@@ -551,6 +563,9 @@ export const month06: MonthContent = {
       months: [5, 18],
       price: "€€",
       safety: "Sin piezas pequeñas ni sonajeros internos accesibles; que no quepan enteros en la boca.",
+      image: "toys/t6-cubos.jpg",
+      imageAlt:
+        "Cubos blandos apilables, con caras y colores distintos.",
     },
     {
       id: "t6-libro-fotos",
@@ -560,6 +575,9 @@ export const month06: MonthContent = {
       months: [4, 24],
       price: "€",
       safety: "Cartoné grueso, esquinas redondeadas y tinta no tóxica.",
+      image: "toys/t6-libro-fotos.jpg",
+      imageAlt:
+        "Libro de cartón con fotos reales de objetos y animales.",
     },
     {
       id: "t6-pelota-tela",
@@ -569,6 +587,9 @@ export const month06: MonthContent = {
       months: [4, 12],
       price: "€",
       safety: "Costuras firmes y cascabel cosido dentro; retírala si pierde forma o suena a pieza suelta.",
+      image: "toys/t6-pelota-tela.jpg",
+      imageAlt:
+        "Pelota de tela con cascabel y asas de tela para agarrar.",
     },
   ],
   sources: [
